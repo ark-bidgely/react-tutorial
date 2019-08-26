@@ -33,7 +33,7 @@ componentDidMount() {
     (
         <div className ='tc'>
         <h1 className ='f2'>ROBOFRIENDS</h1>
-        <SearchBox  searchChange={this.onSearchChange}/>
+        <SearchBox  searchChange={this.onsearchChange}/>
         <Scroll>
         <CardList robots={filteredRobots}/>
         </Scroll>
